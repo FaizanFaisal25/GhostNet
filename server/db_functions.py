@@ -1,33 +1,38 @@
 import json
 import random
 from datetime import datetime
+from util import get_and_save_profile_picture
 
 
-def initialize_users(db, user_json='database/users.json'):
+def initialize_users(db, user_json='data/users.json'):
     with open(user_json) as f:
         user_data = json.load(f)
 
     cursor = db.cursor()
 
     insert_query = '''
-        INSERT INTO users (name, dob, location, bio)
-        VALUES (?, ?, ?, ?)
+        INSERT INTO users (name, dob, location, bio, profile_photo, gender)
+        VALUES (?, ?, ?, ?, ?, ?)
     '''
 
-    for user in user_data:
+    for i, user in enumerate(user_data):
         cursor.execute(insert_query, (
             user.get('name'),
             user.get('dob'),
             user.get('location'),
             user.get('bio'),
+            f"{i + 1}.png",
+            user.get('gender')
         ))
+
+        get_and_save_profile_picture(user.get('gender'), i + 1)
 
     db.commit()
 
     print('Users Initialized!')
 
 
-def initialize_posts(db, post_json='testing_files/api_data_partial.json'):
+def initialize_posts(db, post_json='data/api_data_partial.json'):
     with open(post_json) as f:
         post_data = json.load(f)['articles']
 
@@ -114,7 +119,39 @@ def get_posts(db):
 
 
 def get_single_post(db, post_id):
-    pass
+    cursor = db.cursor()
+
+    select_query = '''
+        SELECT p.id, p.source_id, p.source_name, p.author, p.title, p.description, 
+               p.url, p.url_to_image, p.published_at, p.content,
+               u.name, u.dob, u.location, u.bio, u.profile_photo
+        FROM posts p
+        JOIN users u ON p.author = u.id
+        WHERE p.id = ?
+    '''
+    cursor.execute(select_query, (post_id,))
+
+    item = cursor.fetchone()
+
+    if item is None:
+        return None
+
+    post = {
+        "id": item[0],
+        "source_id": item[1],
+        "source_name": item[2],
+        "author_id": item[3],
+        "title": item[4],
+        "description": item[5],
+        "url": item[6],
+        "url_to_image": item[7],
+        "published_at": item[8],
+        "content": item[9],
+        "author_name": item[10],
+        "author_profile_photo": item[14]
+    }
+
+    return post
 
 
 def add_comment(db, post_id, author_id, content):

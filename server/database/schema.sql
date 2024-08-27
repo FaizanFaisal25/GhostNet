@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS users (
     dob DATE,
     location TEXT,
     bio TEXT,
-    profile_photo TEXT
+    profile_photo TEXT,
+    gender Text
 );
 
 

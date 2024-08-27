@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NewsTile from "../components/NewsTile";
-import { createURL } from "../config";
+import { createURL } from "../util";
 
 const Home = () => {
   const [news, setNews] = useState([]);

@@ -2,12 +2,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import { profilePicturesDir } from "../config";
+import { getProfilePicturePath } from "../util";
 
 const NewsTile = ({ article, onClickTrue }) => {
   const navigate = useNavigate();
 
-  const handleCommentsClick = () => {
-    navigate("/post", { state: { article } });
+  const handlePostClick = () => {
+    navigate(`/post/${article.id}`);
   };
 
   return (
@@ -17,7 +19,7 @@ const NewsTile = ({ article, onClickTrue }) => {
           ? "hover:bg-blue-100 transform ransition-transform duration-300"
           : ""
       }`}
-      onClick={onClickTrue ? handleCommentsClick : () => {}}
+      onClick={onClickTrue ? handlePostClick : () => {}}
     >
       <img
         src={article.url_to_image || "https://via.placeholder.com/300"}
@@ -27,7 +29,7 @@ const NewsTile = ({ article, onClickTrue }) => {
       <div className="p-4">
         <div class="flex items-center space-x-4">
           <img
-            src={article.author_profile_photo}
+            src={getProfilePicturePath(article.author_profile_photo)}
             alt="Profile Photo"
             class="w-10 h-10 rounded-full object-cover"
           />
@@ -46,7 +48,7 @@ const NewsTile = ({ article, onClickTrue }) => {
         <div className="flex items-center mt-4">
           <button
             className="flex items-center text-gray-700 hover:text-gray-900"
-            onClick={onClickTrue ? handleCommentsClick : () => {}}
+            onClick={onClickTrue ? handlePostClick : () => {}}
           >
             <FontAwesomeIcon icon={faCommentDots} className="mr-2" />
             Comments

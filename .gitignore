@@ -4,6 +4,9 @@ build/
 dist/
 .DS_Store
 
+# profile pictures
+client/public/profile_pictures
+
 # Sqlite instance
 server/database/database.db
 
