@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 const NewsTile = ({ article, onClickTrue }) => {
   const navigate = useNavigate();
 
-  const handleCommentsClick = () => {
-    navigate("/post", { state: { article } });
+  const handleCommentsClick = (postId) => {
+    navigate(`/post/${postId}`);
   };
 
   return (

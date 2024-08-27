@@ -1,15 +1,14 @@
 import initialize
-from flask import Flask, jsonify, g
+from flask import Flask, jsonify, request, g
 from flask_cors import CORS
 import json
 import sqlite3
 import os
 from config import DATABASE
-from db_functions import initialize_users, initialize_posts, get_posts
+from db_functions import initialize_users, initialize_posts, get_posts, get_single_post
 
 app = Flask(__name__)
 CORS(app)
-
 
 def get_db():
     db = getattr(g, '_database', None)
@@ -45,6 +44,23 @@ with open('testing_files/api_data_partial.json') as f:
 def get_all_posts():
     try:
         return get_posts(get_db())
+    except Exception as error:
+        error_msg = f'Error: {error}'
+        print(error_msg)
+        return error_msg, 500
+
+@app.route('/get_single_post', methods=['GET'])
+def get_single_post_endpoint():
+    try:
+        post_id = request.args.get('id')
+        if not post_id:
+            return "Post ID is required", 400
+        
+        post = get_single_post(get_db(), post_id)
+        if post is None:
+            return "Post not found", 404
+        
+        return jsonify(post)
     except Exception as error:
         error_msg = f'Error: {error}'
         print(error_msg)

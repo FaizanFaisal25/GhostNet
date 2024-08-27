@@ -90,4 +90,41 @@ def get_posts(db):
 
 
 def get_single_post(db, post_id):
-    pass
+    cursor = db.cursor()
+
+    select_query = '''
+        SELECT p.id, p.source_id, p.source_name, p.author, p.title, p.description, 
+               p.url, p.url_to_image, p.published_at, p.content,
+               u.name, u.dob, u.location, u.bio, u.profile_photo
+        FROM posts p
+        JOIN users u ON p.author = u.id
+        WHERE p.id = ?
+    '''
+    cursor.execute(select_query, (post_id,))
+
+    item = cursor.fetchone()
+
+    if item is None:
+        return None
+    
+    post = {
+        "id": item[0],
+        "source_id": item[1],
+        "source_name": item[2],
+        "author_id": item[3],
+        "title": item[4],
+        "description": item[5],
+        "url": item[6],
+        "url_to_image": item[7],
+        "published_at": item[8],
+        "content": item[9],
+        "author": {
+            "name": item[10],
+            "dob": item[11],
+            "location": item[12],
+            "bio": item[13],
+            "profile_photo": item[14]
+        }
+    }
+
+    return post
