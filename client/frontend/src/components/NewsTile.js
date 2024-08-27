@@ -7,7 +7,7 @@ const NewsTile = ({ article }) => {
     const navigate = useNavigate();
 
     const handleCommentsClick = () => {
-        navigate('/post');
+        navigate('/post', { state: { article } });
     };
 
     return (
