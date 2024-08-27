@@ -11,7 +11,7 @@ const Home = () => {
         const response = await fetch(createURL("get_news"));
         const data = await response.json();
         if (data.status === "ok") {
-          setNews(data.articles);
+          setNews(data);
         }
       } catch (error) {
         console.error("Error fetching news:", error);

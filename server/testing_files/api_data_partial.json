@@ -1,188 +1,188 @@
 {
-    "status": "ok",
-    "totalResults": 14,
-    "articles": [
-        {
-            "source": {
-                "id": "business-insider",
-                "name": "Business Insider"
-            },
-            "author": "Katherine Tangalakis-Lippert",
-            "title": "The courts could decide this presidential election, and both campaigns are gearing up for an ugly legal fight",
-            "description": "Legal challenges to the outcome of this year's election are all but inevitable, and both campaigns are preparing for a nasty fight in court.",
-            "url": "https://www.businessinsider.com/donald-trump-kamala-harris-preparing-legal-challenges-election-decided-court-2024-8",
-            "urlToImage": "https://i.insider.com/66cb9e61c72ebc54a40ea6d0?width=1200&format=jpeg",
-            "publishedAt": "2024-08-26T09:22:02Z",
-            "content": "Both the Trump and Harris campaigns are gearing up for a nasty legal battle in court over the outcome of this year's election.Brandon Bell/Getty Images and Andrew Harnik/Getty Images\r\n<ul><li>Legal e\u2026 [+4717 chars]"
-        },
-        {
-            "source": {
-                "id": "time",
-                "name": "Time"
-            },
-            "author": "Philip Elliott",
-            "title": "How to Read Political Polls Like a Pro",
-            "description": "It's easy to misread polls. Here's a handy guide to what campaign professionals consider with every poll they see",
-            "url": "https://time.com/7012220/how-read-political-polls-like-a-pro/",
-            "urlToImage": "https://api.time.com/wp-content/uploads/2024/08/political-polls-2.gif?w=1200&h=628&crop=1",
-            "publishedAt": "2024-08-26T11:00:00Z",
-            "content": "This article is part of The D.C. Brief, TIMEs politics newsletter. Sign up here to get stories like this sent to your inbox.\r\nNo poll is predictive. Every single one of them is a measure of a specifi\u2026 [+10789 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The Atlantic"
-            },
-            "author": "Elaina Plott Calabro",
-            "title": "The Man Who Will Do Anything for Trump",
-            "description": "Why Kash Patel is exactly the kind of person who would serve in a second Trump administration",
-            "url": "https://www.theatlantic.com/magazine/archive/2024/10/kash-patel-trump-national-security-council/679566/?utm_source=feed",
-            "urlToImage": null,
-            "publishedAt": "2024-08-26T10:00:00Z",
-            "content": "Illustrations by Diego MalloKash Patel was dangerous. On this both Trump appointees and career officials could agree.A 40-year-old lawyer with little government experience, he joined the administrati\u2026 [+37416 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Vpnmentor.com"
-            },
-            "author": "Jeremiah Fowler",
-            "title": "4.6M Voter and Election Documents Exposed Online by Technology Contractor",
-            "description": "4.6 million documents, belonging to Platinum Technology Resource, including voter records, ballots, multiple lists, and election-related records exposed online.",
-            "url": "https://www.vpnmentor.com/news/report-election-records-breach/",
-            "urlToImage": "https://www.vpnmentor.com/wp-content/uploads/2024/08/4-6-million-voters_optimized.png",
-            "publishedAt": "2024-08-25T14:45:41Z",
-            "content": "Cybersecurity Researcher, Jeremiah Fowler, discovered and reported to VpnMentor about the discovery of 13 non-password-protected databases that contained 4.6 million documents, including voter record\u2026 [+12744 chars]"
-        },
-        {
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Analysis by Peter Bergen, CNN",
-            "title": "Gen. McMaster\u2019s blistering account of the Trump White House",
-            "description": "Until now, Lt. Gen. H.R. McMaster has held his fire about his stint in the Trump White House. McMaster served with distinction in key American conflicts of...",
-            "url": "https://www.cnn.com/2024/08/25/politics/mcmaster-trump-book-account/index.html",
-            "urlToImage": "https://media.zenfs.com/en/cnn_articles_875/e974e9874be1c2f1dd41299ad241a951",
-            "publishedAt": "2024-08-25T15:00:02Z",
-            "content": "Until now, Lt. Gen. H.R. McMaster has held his fire about his stint in the Trump White House. McMaster served with distinction in key American conflicts of the past decades: the Gulf War, the Iraq Wa\u2026 [+8851 chars]"
-        },
-        {
-            "source": {
-                "id": "al-jazeera-english",
-                "name": "Al Jazeera English"
-            },
-            "author": "Al Jazeera",
-            "title": "Macron meets Marine Le Pen amid France prime minister talks",
-            "description": "After his party's defeat in the July elections, Macron must decide who to nominate for prime minister.",
-            "url": "https://www.aljazeera.com/news/2024/8/26/macron-meets-marine-le-pen-amid-france-prime-minister-talks",
-            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/08/2024-08-26T085500Z_1711666268_RC2KN9AXKAU1_RTRMADP_3_FRANCE-POLITICS-FARRIGHT-1724676619.jpg?resize=1920%2C1440",
-            "publishedAt": "2024-08-26T14:46:05Z",
-            "content": "French President Emmanuel Macron has met with far-right politician Marine Le Pen amid pressure to pick a new prime minister after the failure of any party to emerge with a parliamentary majority in J\u2026 [+1944 chars]"
-        },
-        {
-            "source": {
-                "id": "al-jazeera-english",
-                "name": "Al Jazeera English"
-            },
-            "author": "Al Jazeera",
-            "title": "More than 300,000 in emergency shelters after Bangladesh floods",
-            "description": "Relentless monsoon rains and flooding have submerged vast areas in Bangladesh, damaging homes and infrastructure.",
-            "url": "https://www.aljazeera.com/gallery/2024/8/25/more-than-300000-bangladeshis-in-emergency-shelters-after-floods",
-            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/08/AFP__20240824__36EQ94R__v1__Preview__BangladeshWeatherClimateFlood-1724574411.jpg?resize=1200%2C630",
-            "publishedAt": "2024-08-25T09:35:02Z",
-            "content": "River waters in low-lying Bangladesh are receding after days of deadly floods but 300,000 people are still in emergency shelters requiring aid, disaster officials said on Sunday.\r\nThe heavy floods, w\u2026 [+1832 chars]"
-        },
-        {
-            "source": {
-                "id": "al-jazeera-english",
-                "name": "Al Jazeera English"
-            },
-            "author": "Dalia Mogahed, Saher Selod",
-            "title": "The Muslim American vote matters and it can no longer be taken for granted",
-            "description": "Muslim Americans make up a significant voting bloc in key swing states. And they have a single voting priority: Gaza.",
-            "url": "https://www.aljazeera.com/opinions/2024/8/25/the-muslim-american-vote-matters-and-it-can-no-longer-be-taken-for",
-            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/08/2024-02-25T224838Z_380290091_RC2V96ATB1M0_RTRMADP_3_USA-ELECTION-MICHIGAN-1-1724596828.jpg?resize=1920%2C1440",
-            "publishedAt": "2024-08-25T14:52:28Z",
-            "content": "As the United States presidential election approaches, the race to attract voters has intensified. Among the different constituencies the Democrats and Republicans are battling over, there is one tha\u2026 [+6674 chars]"
-        },
-        {
-            "source": {
-                "id": "the-hill",
-                "name": "The Hill"
-            },
-            "author": "Miranda Nazzaro",
-            "title": "POLL: HARRIS +7",
-            "description": "Vice President Harris holds a 7-point edge over former President Trump nationally in a new poll, marking the latest gain for the Democratic presidential candidate as the general election approaches. A survey from Fairleigh Dickinson University, released last \u2026",
-            "url": "https://thehill.com/homenews/campaign/4846433-harris-leading-trump-by-7-points-poll/",
-            "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/08/Trump-Harris_Manuel-Balce-Ceneta-and-Kayla-Wolf-AP.png?w=1280",
-            "publishedAt": "2024-08-25T15:34:38Z",
-            "content": "Skip to content\r\nVice President Harris holds a 7-point edge over former President Trump nationally in a new poll, marking the latest gain for the Democratic presidential candidate as the general elec\u2026 [+2906 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Mckinsey.com"
-            },
-            "author": null,
-            "title": "Approaching generative AI with a beginner\u2019s mindset",
-            "description": "Generative AI is helping organizations do more in less time. An attitude of eager curiosity could help leaders seize the burgeoning opportunities that come with new technology.",
-            "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/approaching-generative-ai-with-a-beginners-mindset",
-            "urlToImage": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/approaching%20generative%20ai%20with%20a%20beginners%20mindset/clara-shih-the%20edge-50-50.jpg",
-            "publishedAt": "2024-08-26T00:00:00Z",
-            "content": "Applying a growth mindset is the best way for businesses to approach the rapid changes born of generative AI (gen AI), says Clara Shih, CEO of Salesforce AI and todays guest on this episode of the At\u2026 [+19606 chars]"
-        },
-        {
-            "source": {
-                "id": "cbc-news",
-                "name": "CBC News"
-            },
-            "author": null,
-            "title": "Man claiming responsibility for German knife attack turns himself in to police",
-            "description": "A\u00a0 26-year-old man turned himself into police, saying he was responsible for the Solingen knife attack that left three dead and eight wounded at a festival marking the city's 650th anniversary, German authorities announced early Sunday.",
-            "url": "https://www.cbc.ca/news/world/germany-solingen-stabbing-attack-suspect-1.7304384",
-            "urlToImage": "https://i.cbc.ca/1.7304385.1724588529!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_620/germany-attack.jpg",
-            "publishedAt": "2024-08-25T12:35:26Z",
-            "content": "A\u00a0 26-year-old man turned himself into police, saying he was responsible for the Solingen knife attack that left three dead and eight wounded at a festival marking the city's 650th anniversary, Germa\u2026 [+3482 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Nakedcapitalism.com"
-            },
-            "author": "Yves Smith",
-            "title": "Former Ambassador Chas Freeman: Possible Disintegration of Civilian Government at Year End",
-            "description": "Chas Freeman sends a sobering warning.",
-            "url": "https://www.nakedcapitalism.com/2024/08/former-ambassador-chas-freeman-possible-disintegration-of-civilian-government-at-year-end.html",
-            "urlToImage": null,
-            "publishedAt": "2024-08-26T10:50:14Z",
-            "content": "For those of you who watch YouTube geopolitical talking heads, Chas Freeman, who was Nixon\u2019s translator on his famed visit to China and later ambassador to Saudi Arabia, is particularly cool, articul\u2026 [+6632 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Forbes"
-            },
-            "author": "Tonya Evans, Contributor, \n Tonya Evans, Contributor\n https://www.forbes.com/sites/tonyaevans/",
-            "title": "From Trump To Harris: The Battle For America's Crypto Future",
-            "description": "Explore how the 2024 election could shape the future of cryptocurrency, with shifting stances from Trump, Biden, and Harris signaling a new era for the industry.",
-            "url": "https://www.forbes.com/sites/tonyaevans/2024/08/26/from-trump-to-harris-the-battle-for-americas-crypto-future/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66cc1d95484ba97edd54a396/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-08-26T06:23:21Z",
-            "content": "Debate stage and podium.\r\n2024 Tonya M. Evans\r\nIn a late-evening tweetstorm on July 11, 2019, former President Donald Trump catapulted bitcoin and the cryptocurrency industry into mainstream attentio\u2026 [+8187 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Forbes"
-            },
-            "author": "Alex Ledsom, Senior Contributor, \n Alex Ledsom, Senior Contributor\n https://www.forbes.com/sites/alexledsom/",
-            "title": "Retire To France, Live Like A Tourist\u2014It\u2019s More Affordable Than You Think",
-            "description": "Now might be a perfect opportunity if you've always wanted to retire and live like a tourist in France\u2014it's more affordable than you might think.",
-            "url": "https://www.forbes.com/sites/alexledsom/2024/08/25/retire-to-france-live-like-a-tourist-its-more-affordable-than-you-think/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/65b4d0c2b16e12f16a43825b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-08-25T09:30:33Z",
-            "content": "Senanque Abbey in ProvenceFrance is more affordable than you think for retirement.\r\ngetty\r\nFrance's history, way of life, beautiful scenery, and delicious food are why it's one of the most visited co\u2026 [+3027 chars]"
-        }
-    ]
+  "status": "ok",
+  "totalResults": 14,
+  "articles": [
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Katherine Tangalakis-Lippert",
+      "title": "The courts could decide this presidential election, and both campaigns are gearing up for an ugly legal fight",
+      "description": "Legal challenges to the outcome of this year's election are all but inevitable, and both campaigns are preparing for a nasty fight in court.",
+      "url": "https://www.businessinsider.com/donald-trump-kamala-harris-preparing-legal-challenges-election-decided-court-2024-8",
+      "urlToImage": "https://i.insider.com/66cb9e61c72ebc54a40ea6d0?width=1200&format=jpeg",
+      "publishedAt": "2024-08-26T09:22:02Z",
+      "content": "Both the Trump and Harris campaigns are gearing up for a nasty legal battle in court over the outcome of this year's election.Brandon Bell/Getty Images and Andrew Harnik/Getty Images\r\n<ul><li>Legal e\u2026 [+4717 chars]"
+    },
+    {
+      "source": {
+        "id": "time",
+        "name": "Time"
+      },
+      "author": "Philip Elliott",
+      "title": "How to Read Political Polls Like a Pro",
+      "description": "It's easy to misread polls. Here's a handy guide to what campaign professionals consider with every poll they see",
+      "url": "https://time.com/7012220/how-read-political-polls-like-a-pro/",
+      "urlToImage": "https://api.time.com/wp-content/uploads/2024/08/political-polls-2.gif?w=1200&h=628&crop=1",
+      "publishedAt": "2024-08-26T11:00:00Z",
+      "content": "This article is part of The D.C. Brief, TIMEs politics newsletter. Sign up here to get stories like this sent to your inbox.\r\nNo poll is predictive. Every single one of them is a measure of a specifi\u2026 [+10789 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Atlantic"
+      },
+      "author": "Elaina Plott Calabro",
+      "title": "The Man Who Will Do Anything for Trump",
+      "description": "Why Kash Patel is exactly the kind of person who would serve in a second Trump administration",
+      "url": "https://www.theatlantic.com/magazine/archive/2024/10/kash-patel-trump-national-security-council/679566/?utm_source=feed",
+      "urlToImage": null,
+      "publishedAt": "2024-08-26T10:00:00Z",
+      "content": "Illustrations by Diego MalloKash Patel was dangerous. On this both Trump appointees and career officials could agree.A 40-year-old lawyer with little government experience, he joined the administrati\u2026 [+37416 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vpnmentor.com"
+      },
+      "author": "Jeremiah Fowler",
+      "title": "4.6M Voter and Election Documents Exposed Online by Technology Contractor",
+      "description": "4.6 million documents, belonging to Platinum Technology Resource, including voter records, ballots, multiple lists, and election-related records exposed online.",
+      "url": "https://www.vpnmentor.com/news/report-election-records-breach/",
+      "urlToImage": "https://www.vpnmentor.com/wp-content/uploads/2024/08/4-6-million-voters_optimized.png",
+      "publishedAt": "2024-08-25T14:45:41Z",
+      "content": "Cybersecurity Researcher, Jeremiah Fowler, discovered and reported to VpnMentor about the discovery of 13 non-password-protected databases that contained 4.6 million documents, including voter record\u2026 [+12744 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Analysis by Peter Bergen, CNN",
+      "title": "Gen. McMaster\u2019s blistering account of the Trump White House",
+      "description": "Until now, Lt. Gen. H.R. McMaster has held his fire about his stint in the Trump White House. McMaster served with distinction in key American conflicts of...",
+      "url": "https://www.cnn.com/2024/08/25/politics/mcmaster-trump-book-account/index.html",
+      "urlToImage": "https://media.zenfs.com/en/cnn_articles_875/e974e9874be1c2f1dd41299ad241a951",
+      "publishedAt": "2024-08-25T15:00:02Z",
+      "content": "Until now, Lt. Gen. H.R. McMaster has held his fire about his stint in the Trump White House. McMaster served with distinction in key American conflicts of the past decades: the Gulf War, the Iraq Wa\u2026 [+8851 chars]"
+    },
+    {
+      "source": {
+        "id": "al-jazeera-english",
+        "name": "Al Jazeera English"
+      },
+      "author": "Al Jazeera",
+      "title": "Macron meets Marine Le Pen amid France prime minister talks",
+      "description": "After his party's defeat in the July elections, Macron must decide who to nominate for prime minister.",
+      "url": "https://www.aljazeera.com/news/2024/8/26/macron-meets-marine-le-pen-amid-france-prime-minister-talks",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/08/2024-08-26T085500Z_1711666268_RC2KN9AXKAU1_RTRMADP_3_FRANCE-POLITICS-FARRIGHT-1724676619.jpg?resize=1920%2C1440",
+      "publishedAt": "2024-08-26T14:46:05Z",
+      "content": "French President Emmanuel Macron has met with far-right politician Marine Le Pen amid pressure to pick a new prime minister after the failure of any party to emerge with a parliamentary majority in J\u2026 [+1944 chars]"
+    },
+    {
+      "source": {
+        "id": "al-jazeera-english",
+        "name": "Al Jazeera English"
+      },
+      "author": "Al Jazeera",
+      "title": "More than 300,000 in emergency shelters after Bangladesh floods",
+      "description": "Relentless monsoon rains and flooding have submerged vast areas in Bangladesh, damaging homes and infrastructure.",
+      "url": "https://www.aljazeera.com/gallery/2024/8/25/more-than-300000-bangladeshis-in-emergency-shelters-after-floods",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/08/AFP__20240824__36EQ94R__v1__Preview__BangladeshWeatherClimateFlood-1724574411.jpg?resize=1200%2C630",
+      "publishedAt": "2024-08-25T09:35:02Z",
+      "content": "River waters in low-lying Bangladesh are receding after days of deadly floods but 300,000 people are still in emergency shelters requiring aid, disaster officials said on Sunday.\r\nThe heavy floods, w\u2026 [+1832 chars]"
+    },
+    {
+      "source": {
+        "id": "al-jazeera-english",
+        "name": "Al Jazeera English"
+      },
+      "author": "Dalia Mogahed, Saher Selod",
+      "title": "The Muslim American vote matters and it can no longer be taken for granted",
+      "description": "Muslim Americans make up a significant voting bloc in key swing states. And they have a single voting priority: Gaza.",
+      "url": "https://www.aljazeera.com/opinions/2024/8/25/the-muslim-american-vote-matters-and-it-can-no-longer-be-taken-for",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/08/2024-02-25T224838Z_380290091_RC2V96ATB1M0_RTRMADP_3_USA-ELECTION-MICHIGAN-1-1724596828.jpg?resize=1920%2C1440",
+      "publishedAt": "2024-08-25T14:52:28Z",
+      "content": "As the United States presidential election approaches, the race to attract voters has intensified. Among the different constituencies the Democrats and Republicans are battling over, there is one tha\u2026 [+6674 chars]"
+    },
+    {
+      "source": {
+        "id": "the-hill",
+        "name": "The Hill"
+      },
+      "author": "Miranda Nazzaro",
+      "title": "POLL: HARRIS +7",
+      "description": "Vice President Harris holds a 7-point edge over former President Trump nationally in a new poll, marking the latest gain for the Democratic presidential candidate as the general election approaches. A survey from Fairleigh Dickinson University, released last \u2026",
+      "url": "https://thehill.com/homenews/campaign/4846433-harris-leading-trump-by-7-points-poll/",
+      "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/08/Trump-Harris_Manuel-Balce-Ceneta-and-Kayla-Wolf-AP.png?w=1280",
+      "publishedAt": "2024-08-25T15:34:38Z",
+      "content": "Skip to content\r\nVice President Harris holds a 7-point edge over former President Trump nationally in a new poll, marking the latest gain for the Democratic presidential candidate as the general elec\u2026 [+2906 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mckinsey.com"
+      },
+      "author": null,
+      "title": "Approaching generative AI with a beginner\u2019s mindset",
+      "description": "Generative AI is helping organizations do more in less time. An attitude of eager curiosity could help leaders seize the burgeoning opportunities that come with new technology.",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/approaching-generative-ai-with-a-beginners-mindset",
+      "urlToImage": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/approaching%20generative%20ai%20with%20a%20beginners%20mindset/clara-shih-the%20edge-50-50.jpg",
+      "publishedAt": "2024-08-26T00:00:00Z",
+      "content": "Applying a growth mindset is the best way for businesses to approach the rapid changes born of generative AI (gen AI), says Clara Shih, CEO of Salesforce AI and todays guest on this episode of the At\u2026 [+19606 chars]"
+    },
+    {
+      "source": {
+        "id": "cbc-news",
+        "name": "CBC News"
+      },
+      "author": null,
+      "title": "Man claiming responsibility for German knife attack turns himself in to police",
+      "description": "A\u00a0 26-year-old man turned himself into police, saying he was responsible for the Solingen knife attack that left three dead and eight wounded at a festival marking the city's 650th anniversary, German authorities announced early Sunday.",
+      "url": "https://www.cbc.ca/news/world/germany-solingen-stabbing-attack-suspect-1.7304384",
+      "urlToImage": "https://i.cbc.ca/1.7304385.1724588529!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_620/germany-attack.jpg",
+      "publishedAt": "2024-08-25T12:35:26Z",
+      "content": "A\u00a0 26-year-old man turned himself into police, saying he was responsible for the Solingen knife attack that left three dead and eight wounded at a festival marking the city's 650th anniversary, Germa\u2026 [+3482 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nakedcapitalism.com"
+      },
+      "author": "Yves Smith",
+      "title": "Former Ambassador Chas Freeman: Possible Disintegration of Civilian Government at Year End",
+      "description": "Chas Freeman sends a sobering warning.",
+      "url": "https://www.nakedcapitalism.com/2024/08/former-ambassador-chas-freeman-possible-disintegration-of-civilian-government-at-year-end.html",
+      "urlToImage": null,
+      "publishedAt": "2024-08-26T10:50:14Z",
+      "content": "For those of you who watch YouTube geopolitical talking heads, Chas Freeman, who was Nixon\u2019s translator on his famed visit to China and later ambassador to Saudi Arabia, is particularly cool, articul\u2026 [+6632 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Tonya Evans",
+      "title": "From Trump To Harris: The Battle For America's Crypto Future",
+      "description": "Explore how the 2024 election could shape the future of cryptocurrency, with shifting stances from Trump, Biden, and Harris signaling a new era for the industry.",
+      "url": "https://www.forbes.com/sites/tonyaevans/2024/08/26/from-trump-to-harris-the-battle-for-americas-crypto-future/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66cc1d95484ba97edd54a396/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2024-08-26T06:23:21Z",
+      "content": "Debate stage and podium.\r\n2024 Tonya M. Evans\r\nIn a late-evening tweetstorm on July 11, 2019, former President Donald Trump catapulted bitcoin and the cryptocurrency industry into mainstream attentio\u2026 [+8187 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Alex Ledsom",
+      "title": "Retire To France, Live Like A Tourist\u2014It\u2019s More Affordable Than You Think",
+      "description": "Now might be a perfect opportunity if you've always wanted to retire and live like a tourist in France\u2014it's more affordable than you might think.",
+      "url": "https://www.forbes.com/sites/alexledsom/2024/08/25/retire-to-france-live-like-a-tourist-its-more-affordable-than-you-think/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/65b4d0c2b16e12f16a43825b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2024-08-25T09:30:33Z",
+      "content": "Senanque Abbey in ProvenceFrance is more affordable than you think for retirement.\r\ngetty\r\nFrance's history, way of life, beautiful scenery, and delicious food are why it's one of the most visited co\u2026 [+3027 chars]"
+    }
+  ]
 }

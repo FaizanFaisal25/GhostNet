@@ -5,7 +5,7 @@ import json
 import sqlite3
 import os
 from config import DATABASE
-from db_functions import add_users
+from db_functions import initialize_users, initialize_posts, get_posts
 
 app = Flask(__name__)
 CORS(app)
@@ -25,7 +25,8 @@ def init_db():
             db.cursor().executescript(f.read())
         db.commit()
 
-        add_users(db)
+        initialize_users(db)
+        initialize_posts(db)
 
 
 @app.teardown_appcontext
@@ -40,10 +41,14 @@ with open('testing_files/api_data_partial.json') as f:
     data = json.load(f)
 
 
-@app.route('/get_news', methods=['GET'])
-def get_data():
-    global data
-    return jsonify(data)
+@app.route('/get_all_posts', methods=['GET'])
+def get_all_posts():
+    try:
+        return get_posts(get_db())
+    except Exception as error:
+        error_msg = f'Error: {error}'
+        print(error_msg)
+        return error_msg, 500
 
 
 if __name__ == '__main__':
