@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 data = {}
-with open('api_data.json') as f:
+with open('api_data_partial.json') as f:
     data = json.load(f)
 
 @app.route('/get_news', methods=['GET'])
