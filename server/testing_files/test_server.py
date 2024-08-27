@@ -5,11 +5,13 @@ import json
 app = Flask(__name__)
 CORS(app)
 
+data = {}
+with open('api_data.json') as f:
+    data = json.load(f)
+
 @app.route('/get_news', methods=['GET'])
 def get_data():
-    with open('api_data.json') as f:
-        data = json.load(f)
-    print(data)
+    global data
     return jsonify(data)
 
 if __name__ == '__main__':
