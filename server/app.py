@@ -36,11 +36,6 @@ def close_connection(exception):
         db.close()
 
 
-data = {}
-with open('testing_files/api_data_partial.json') as f:
-    data = json.load(f)
-
-
 @app.route('/get_all_posts', methods=['GET'])
 def get_all_posts():
     try:
