@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white bg-opacity-50 backdrop-blur-md p-4 shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center">
-        <Link to="/home" className="flex items-center space-x-4">
+        <Link to="/" className="flex items-center space-x-4">
           <img src={"./app_logo.png"} alt="App Logo" className="h-20" />
         </Link>
         <div className="flex-grow flex justify-center space-x-12">

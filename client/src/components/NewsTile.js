@@ -14,17 +14,25 @@ const NewsTile = ({ article, onClickTrue }) => {
     <div
       className={`border rounded-lg shadow-lg overflow-hidden ${
         onClickTrue
-          ? "hover:bg-gray-100 transform ransition-transform duration-300"
+          ? "hover:bg-blue-100 transform ransition-transform duration-300"
           : ""
       }`}
       onClick={onClickTrue ? handleCommentsClick : () => {}}
     >
       <img
-        src={article.urlToImage || "https://via.placeholder.com/300"}
+        src={article.url_to_image || "https://via.placeholder.com/300"}
         alt={article.title}
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
+        <div class="flex items-center space-x-4">
+          <img
+            src={article.author_profile_photo}
+            alt="Profile Photo"
+            class="w-10 h-10 rounded-full object-cover"
+          />
+          <div class="text-lg font-medium">{article.author_name}</div>
+        </div>
         <h2 className="text-xl font-semibold mb-2">{article.title}</h2>
         <p className="text-gray-700 mb-4">{article.description}</p>
         <a

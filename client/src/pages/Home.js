@@ -8,10 +8,14 @@ const Home = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await fetch(createURL("get_news"));
-        const data = await response.json();
-        if (data.status === "ok") {
+        const response = await fetch(createURL("get_all_posts"));
+        if (response.ok) {
+          const data = await response.json();
           setNews(data);
+
+          console.log(data);
+        } else {
+          throw new Error(`Error: ${response.status}`);
         }
       } catch (error) {
         console.error("Error fetching news:", error);
