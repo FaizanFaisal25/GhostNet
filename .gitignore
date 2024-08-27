@@ -4,6 +4,9 @@ build/
 dist/
 .DS_Store
 
+# Sqlite instance
+server/database/database.db
+
 # Logs
 logs/
 *.log

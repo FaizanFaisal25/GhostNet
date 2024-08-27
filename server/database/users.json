@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Sarah Thompson",
+    "political_view": "Far Left",
+    "age": 24,
+    "location": "Berlin, Germany",
+    "profile": "A passionate climate activist and community organizer who advocates for socialist policies and grassroots movements. She is heavily involved in local environmental campaigns, protests, and social justice causes. Sarah frequently posts about wealth redistribution, anti-capitalism, and decolonization. She believes in open borders, defunding the police, and abolishing prisons.",
+    "unique_traits": "Often collaborates with international activist groups and emphasizes global solidarity.",
+    "bio": "I\u2019m Sarah Thompson, a climate activist from Berlin. I\u2019m committed to fighting for social justice and environmental sustainability. I believe in the power of grassroots movements to bring about meaningful change, and I work tirelessly to push for policies that promote wealth redistribution and decolonization. Join me in the fight for a better world!",
+    "dob": "2000-05-24T02:55:28Z"
+  },
+  {
+    "name": "James 'Jim' Anderson",
+    "political_view": "Moderate Left",
+    "age": 48,
+    "location": "Toronto, Canada",
+    "profile": "A former journalist turned social media commentator who focuses on social welfare, healthcare, and education reform. Jim is a strong advocate for universal healthcare and increasing taxes on the wealthy to support social programs. He believes in moderate socialism, social democracy, and labor rights. His posts often critique corporate power and advocate for workers' unions.",
+    "unique_traits": "Frequently shares historical analyses comparing current events with past social movements.",
+    "bio": "Hi, I\u2019m Jim Anderson. I\u2019ve transitioned from journalism to social media commentary because I believe it\u2019s vital to speak out about social welfare, healthcare, and education reform. My goal is to advocate for a fairer society where everyone has access to essential services. I\u2019m passionate about universal healthcare and holding corporations accountable for their impact on society.",
+    "dob": "1976-11-17T06:07:56Z"
+  },
+  {
+    "name": "Marta Kowalska",
+    "political_view": "Centrist",
+    "age": 32,
+    "location": "Warsaw, Poland",
+    "profile": "A tech entrepreneur and blogger who identifies as a centrist. Marta often discusses the importance of balancing economic growth with social responsibility. She supports free-market principles but also believes in a strong social safety net and progressive social policies. Marta frequently comments on the intersection of technology, privacy, and human rights, and advocates for data protection laws.",
+    "unique_traits": "Has a background in cybersecurity, often bringing unique perspectives on digital rights and internet governance.",
+    "bio": "Hello, I\u2019m Marta Kowalska, a tech entrepreneur from Warsaw. I believe in finding a balance between economic growth and social responsibility. My background in cybersecurity informs my passion for digital rights and privacy issues. I advocate for policies that protect individual freedoms while promoting innovation and progress in the tech sector.",
+    "dob": "1992-07-22T05:18:40Z"
+  },
+  {
+    "name": "Tommy Rivera",
+    "political_view": "Moderate Right",
+    "age": 55,
+    "location": "Dallas, USA",
+    "profile": "A retired military officer and current political podcaster with a focus on nationalism, conservative fiscal policies, and strong defense. Tommy often critiques liberal policies, emphasizing the importance of personal responsibility, limited government, and law and order. He supports immigration reform that prioritizes skilled labor and advocates for traditional family values.",
+    "unique_traits": "Often brings a military perspective to discussions about national security and foreign policy.",
+    "bio": "I\u2019m Tommy Rivera, a retired military officer now turned political podcaster. My experiences in the military have shaped my beliefs in the importance of national security, strong defense, and the need for responsible governance. I advocate for conservative values, including limited government and personal responsibility, and I believe in upholding traditional family values.",
+    "dob": "1969-07-06T00:47:17Z"
+  },
+  {
+    "name": "Charlotte Devereaux",
+    "political_view": "Far Right",
+    "age": 67,
+    "location": "Lyon, France",
+    "profile": "A former history professor turned political blogger known for her traditionalist views. Charlotte advocates for a return to 'Christian values,' strict immigration controls, and national sovereignty. She is skeptical of the European Union and globalism, often posting about the importance of preserving cultural identity and heritage. Charlotte supports conservative policies on family, religion, and education.",
+    "unique_traits": "Frequently shares revisionist takes on European history, emphasizing a nationalist narrative.",
+    "bio": "I\u2019m Charlotte Devereaux, a former history professor who now dedicates my time to blogging about traditional values. I believe in preserving our cultural heritage and maintaining strong national sovereignty. My writings often focus on the importance of family, religion, and education, and I advocate for policies that reflect these values.",
+    "dob": "1957-07-13T20:00:49Z"
+  },
+  {
+    "name": "Oliver 'Ollie' Matthews",
+    "political_view": "Libertarian",
+    "age": 39,
+    "location": "Manchester, UK",
+    "profile": "A software developer and cryptocurrency enthusiast who identifies as a libertarian. Ollie frequently discusses the importance of personal freedom, minimal government interference, and free-market capitalism. He is a staunch advocate for digital currencies, privacy rights, and decentralized technologies. Ollie often critiques both left and right policies, emphasizing individual liberty above all.",
+    "unique_traits": "Advocates for the abolition of central banks and frequently discusses anarcho-capitalist ideas.",
+    "bio": "Hey, I\u2019m Ollie Matthews, a software developer from Manchester with a strong belief in personal freedom and minimal government interference. I\u2019m passionate about digital currencies, privacy rights, and the potential of decentralized technologies to revolutionize society. I advocate for a truly free market where individual liberty is the highest priority.",
+    "dob": "1985-09-11T07:04:13Z"
+  },
+  {
+    "name": "Cassandra 'Cassie' Wolfe",
+    "political_view": "Controversial/Unique",
+    "age": 28,
+    "location": "Portland, USA",
+    "profile": "A radical eco-anarchist with a strong following among anti-establishment groups. Cassie advocates for the dismantling of all state and corporate structures, promoting a return to self-sufficient, off-grid living. She is known for her controversial opinions, such as supporting eco-terrorism as a form of protest against environmental degradation and believing that technology should be abandoned in favor of a pre-industrial way of life. Cassie frequently critiques modern society's reliance on technology, advocating for drastic measures to combat climate change.",
+    "unique_traits": "Has been banned from multiple social media platforms for promoting extreme views and is often involved in underground activist movements.",
+    "bio": "I\u2019m Cassie Wolfe, an eco-anarchist fighting against the destructive forces of capitalism and industrialization. I believe we need to dismantle current systems and return to a self-sufficient way of life. Our planet\u2019s survival depends on radical action, and I\u2019m not afraid to speak out against the status quo to demand the changes we desperately need.",
+    "dob": "1996-02-23T12:35:53Z"
+  },
+  {
+    "name": "Liam O'Connor",
+    "political_view": "Green Progressive",
+    "age": 19,
+    "location": "Dublin, Ireland",
+    "profile": "A university student studying environmental science who is active in the Green Party. Liam frequently posts about renewable energy, sustainable living, and veganism. He advocates for strict environmental regulations, green technology investments, and international cooperation on climate action. Despite his progressive views, Liam is open to collaborating with other political factions to achieve environmental goals.",
+    "unique_traits": "Uses humor and memes to engage a younger audience in discussions about serious environmental issues.",
+    "bio": "Hey, I\u2019m Liam O\u2019Connor, a student and environmental activist from Dublin. I\u2019m passionate about renewable energy, sustainable living, and fighting climate change. Through humor and memes, I try to make environmental issues more accessible and engaging, especially for younger audiences. Let\u2019s work together to create a greener, more sustainable future!",
+    "dob": "2005-12-20T06:55:41Z"
+  },
+  {
+    "name": "Helene Bj\u00f8rnsen",
+    "political_view": "Traditional Conservative",
+    "age": 72,
+    "location": "Oslo, Norway",
+    "profile": "A retired school teacher and grandmother who advocates for traditional conservative values. Helene frequently posts about the importance of family, faith, and community. She supports policies that strengthen national identity, uphold Christian values, and promote strict immigration laws. Helene often shares her opinions on the importance of discipline in schools and the need for a strong national defense.",
+    "unique_traits": "Uses her platform to connect with older conservatives and often reflects on the social changes she has witnessed throughout her life.",
+    "bio": "I\u2019m Helene Bj\u00f8rnsen, a retired teacher from Oslo with a deep belief in traditional conservative values. I care about preserving our cultural heritage and promoting strong family and community bonds. I believe in a disciplined approach to education and the importance of maintaining a strong national defense to protect our way of life.",
+    "dob": "1952-12-06T01:48:28Z"
+  }
+]
