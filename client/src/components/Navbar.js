@@ -10,7 +10,7 @@ const Navbar = () => {
         </Link>
         <div className="flex-grow flex justify-center space-x-12">
           <Link
-            to="/home"
+            to="/"
             className="text-black font-semibold px-4 py-2 rounded-md transition duration-300 hover:bg-black hover:text-white"
           >
             Home

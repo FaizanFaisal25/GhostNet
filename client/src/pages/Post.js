@@ -15,6 +15,11 @@ const Post = () => {
           <NewsTile article={article} onClickTrue={false} />
           <div className="mt-8">
             <h3 className="text-2xl font-semibold mb-4">Comments</h3>
+            <div className="typing">
+                <div className="typing__dot"></div>
+                <div className="typing__dot"></div>
+                <div className="typing__dot"></div>
+            </div>
             <textarea
               className="w-full p-2 border rounded-md"
               placeholder="Add a comment..."
