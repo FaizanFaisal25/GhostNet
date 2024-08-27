@@ -1,6 +1,15 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCommentDots } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 const NewsTile = ({ article }) => {
+    const navigate = useNavigate();
+
+    const handleCommentsClick = () => {
+        navigate('/post');
+    };
+
     return (
         <div className="border rounded-lg shadow-lg overflow-hidden">
             <img
@@ -19,9 +28,19 @@ const NewsTile = ({ article }) => {
                 >
                     Read more
                 </a>
+                <div className="flex items-center mt-4">
+                    <button
+                        className="flex items-center text-gray-700 hover:text-gray-900"
+                        onClick={handleCommentsClick}
+                    >
+                        <FontAwesomeIcon icon={faCommentDots} className="mr-2" />
+                        Comments
+                    </button>
+                </div>
             </div>
         </div>
     );
 };
 
 export default NewsTile;
+
