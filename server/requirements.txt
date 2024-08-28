@@ -2,3 +2,7 @@ flask
 flask-cors
 python-dotenv
 requests
+langchain 
+langgraph
+langchain-community
+langchain_openai

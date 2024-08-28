@@ -4,6 +4,10 @@ from datetime import datetime
 from util import get_and_save_profile_picture
 
 
+
+def initialize_agents(user_data):
+    pass
+
 def initialize_users(db, user_json='data/users.json'):
     with open(user_json) as f:
         user_data = json.load(f)
