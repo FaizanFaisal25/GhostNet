@@ -19,3 +19,20 @@ def system_prompt_template(persona):
     )
     
     return system_prompt
+
+
+def task_prompt_template(post):
+    title = post.get("title")
+    description = post.get("description")
+    published_at = post.get("published_at")
+    content = post.get("content")
+    author_name = post.get("author_name")
+
+    task_prompt = (
+        f"While scrolling through GhostNet, you come across a post by {author_name} titled '{title}'. "
+        f"It was published on {published_at} and reads: '{description}'. "
+        f"Here is the full content of the post: '{content}'.\n\n"
+        f"Write a brief, casual comment on the post. "
+        f"Make sure your response aligns with your persona and includes only the comment text."
+    )
+    return task_prompt
