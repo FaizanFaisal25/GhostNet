@@ -8,9 +8,9 @@ const CommentList = ({ comments }) => {
       {comments.map((comment, index) => (
         <div className="my-2" key={index}>
           <Comment
-            authorName={comment.author_name}
-            authorPicture={comment.author_profile_photo}
-            content={comment.content}
+            authorName={comment[0].name}
+            // authorPicture={comment.author_profile_photo}
+            content={comment[1]}
             date={formatHumanReadableDate(comment.published_at)}
           />
         </div>

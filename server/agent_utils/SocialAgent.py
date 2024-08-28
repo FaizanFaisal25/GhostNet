@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from langchain_community.tools.tavily_search import TavilySearchResults
 
 class SocialAgent:
-    def __init__(self, system_message: str):
+    def __init__(self, system_message: str, user_details: dict):
         self.model = ChatOpenAI(model="gpt-3.5-turbo")
         self.memory = MemorySaver()
         self.tools = [TavilySearchResults(max_results=3)] # replace this with more relevant tool later if needed!
@@ -14,6 +14,7 @@ class SocialAgent:
         # Initialize chat history with system message
         self.chat_history = [SystemMessage(content=system_message)]        
         self.config = {"configurable": {"thread_id": "abc123"}}
+        self.user_details = user_details
 
     def add_prompt_message(self, content: str):
         self.chat_history.append(HumanMessage(content=content))
@@ -28,4 +29,4 @@ class SocialAgent:
             final_message = chunk
         response = final_message['agent']['messages'][0].content
         self.add_response_message(response)
-        return response
+        return (self.user_details, response)

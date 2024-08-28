@@ -1,16 +1,25 @@
 import json
 import random
 from datetime import datetime
+# File Imports
 from util import get_and_save_profile_picture
-
-
+from agent_utils.prompt_templates import system_prompt_template
+from agent_utils.SocialAgent import SocialAgent
 
 def initialize_agents(user_data):
-    pass
+    agents = []
+    for user_details in user_data:
+        prompt = system_prompt_template(user_details)
+        agent = SocialAgent(prompt, user_details)
+        agents.append(agent)
+    return agents
+
 
 def initialize_users(db, user_json='data/users.json'):
     with open(user_json) as f:
         user_data = json.load(f)
+
+    user_agents = initialize_agents(user_data)
 
     cursor = db.cursor()
 
@@ -34,6 +43,7 @@ def initialize_users(db, user_json='data/users.json'):
     db.commit()
 
     print('Users Initialized!')
+    return user_agents
 
 
 def initialize_posts(db, post_json='data/api_data_partial.json'):

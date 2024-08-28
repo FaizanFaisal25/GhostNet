@@ -4,11 +4,15 @@ from flask_cors import CORS
 import json
 import sqlite3
 import os
+
+# File Imports
 from config import DATABASE
 from db_functions import initialize_users, initialize_posts, get_posts, get_single_post, get_comments, add_comment
+from agent_utils.generate_comments import generate_comments
 
 app = Flask(__name__)
 CORS(app)
+user_agents = []
 
 
 def get_db():
@@ -19,13 +23,14 @@ def get_db():
 
 
 def init_db():
+    global user_agents
     with app.app_context():
         db = get_db()
         with app.open_resource(os.path.join('database', 'schema.sql'), mode='r') as f:
             db.cursor().executescript(f.read())
         db.commit()
 
-        initialize_users(db)
+        user_agents = initialize_users(db)
         initialize_posts(db)
 
 
@@ -66,11 +71,21 @@ def get_single_post_endpoint(post_id):
         return error_msg, 500
 
 
+@app.route('/generate_comments', methods=['POST'])
+def generate_user_comments():
+    global user_agents
+    data = request.get_json()
+    post_id = data['id']
+    post = get_single_post(get_db(), post_id)
+    agent_comments = generate_comments(user_agents, post)
+    return jsonify({'agent_comments': agent_comments}), 200
+
+
 if __name__ == '__main__':
     if not os.path.exists(DATABASE):
         print('Initializing Database...')
         init_db()
         print('Initialized!')
     else:
-        print('***')
+        print('Database already exists. Skipping initialization.')
     app.run(port=9988, debug=False)

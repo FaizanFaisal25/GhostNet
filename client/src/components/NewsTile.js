@@ -27,13 +27,13 @@ const NewsTile = ({ article, onClickTrue }) => {
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
-        <div class="flex items-center space-x-4">
+        <div className="flex items-center space-x-4">
           <img
             src={getProfilePicturePath(article.author_profile_photo)}
             alt="Profile Photo"
-            class="w-10 h-10 rounded-full object-cover"
+            className="w-10 h-10 rounded-full object-cover"
           />
-          <div class="text-lg font-medium">{article.author_name}</div>
+          <div className="text-lg font-medium">{article.author_name}</div>
         </div>
         <h2 className="text-xl font-semibold mb-2">{article.title}</h2>
         <p className="text-gray-700 mb-4">{article.description}</p>
