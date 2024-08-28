@@ -15,13 +15,17 @@ class SocialAgent:
         self.chat_history = [SystemMessage(content=system_message)]        
         self.config = {"configurable": {"thread_id": "abc123"}}
 
-    def add_message(self, content: str):
+    def add_prompt_message(self, content: str):
         self.chat_history.append(HumanMessage(content=content))
+
+    def add_response_message(self, content: str):
+        self.chat_history.append(AIMessage(content=content))
     
     def get_ai_response(self, prompt: str):
-        self.add_message(prompt)
+        self.add_prompt_message(prompt)
         final_message = ""
         for chunk in self.agent_executor.stream({"messages": self.chat_history}, self.config):
             final_message = chunk
         response = final_message['agent']['messages'][0].content
+        self.add_response_message(response)
         return response
