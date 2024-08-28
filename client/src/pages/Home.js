@@ -27,7 +27,7 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center p-4">
-      <h1 className="text-3xl font-bold mb-6">News Feed</h1>
+      <h1 className="text-3xl font-bold mb-6">Social Feed</h1>
       <div className="w-full max-w-4xl">
         {news.map((article, index) => (
           <div className="mb-4" key={index}>
