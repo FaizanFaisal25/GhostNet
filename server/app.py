@@ -71,5 +71,6 @@ if __name__ == '__main__':
         print('Initializing Database...')
         init_db()
         print('Initialized!')
-
+    else:
+        print('***')
     app.run(port=9988, debug=False)
