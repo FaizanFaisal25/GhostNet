@@ -7,7 +7,7 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 
 class SocialAgent:
     def __init__(self, system_message: str, user_details: dict):
-        self.model = ChatOpenAI(model="gpt-3.5-turbo")
+        self.model = ChatOpenAI(model="gpt-3.5-turbo", temperature=1.0)
         self.memory = MemorySaver()
         self.tools = [TavilySearchResults(max_results=3)] # replace this with more relevant tool later if needed!
         self.agent_executor = create_react_agent(self.model, self.tools, checkpointer=self.memory)

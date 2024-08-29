@@ -20,7 +20,6 @@ def system_prompt_template(persona):
     
     return system_prompt
 
-
 def task_prompt_template(post):
     title = post.get("title")
     description = post.get("description")
@@ -33,6 +32,7 @@ def task_prompt_template(post):
         f"It was published on {published_at} and reads: '{description}'. "
         f"Here is the full content of the post: '{content}'.\n\n"
         f"Write a brief, casual comment on the post. "
-        f"Make sure your response aligns with your persona and includes only the comment text."
+        f"Make sure your response aligns with your persona and includes only the comment text. "
+        f"Feel free to include emojis, hashtags, or any other social media conventions that you like."
     )
     return task_prompt
