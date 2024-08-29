@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-import { profilePicturesDir } from "../config";
+// import { profilePicturesDir } from "../config";
 import { getProfilePicturePath } from "../util";
 
 const NewsTile = ({ article, onClickTrue }) => {
@@ -30,7 +30,7 @@ const NewsTile = ({ article, onClickTrue }) => {
         <div className="flex items-center space-x-4">
           <img
             src={getProfilePicturePath(article.author_profile_photo)}
-            alt="Profile Photo"
+            alt={`${article.author_name}`}
             className="w-10 h-10 rounded-full object-cover"
           />
           <div className="text-lg font-medium">{article.author_name}</div>

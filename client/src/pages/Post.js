@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { createURL } from "../util";
 import CommentList from "../components/CommentList";
-import { getProfilePicturePath } from "../util";
+// import { getProfilePicturePath } from "../util";
 
 const Post = () => {
   const { postId } = useParams();
