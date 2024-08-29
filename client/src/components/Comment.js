@@ -5,11 +5,12 @@ const Comment = ({ authorName, authorPicture, content, date }) => {
   return (
     <div className="bg-white border shadow-md rounded-lg p-4 mx-auto my-4">
       <div className="flex items-center mb-4">
-        {/* <img
+        <img
           className="w-12 h-12 rounded-full mr-4"
-          src={getProfilePicturePath(authorPicture)}
+          src={getProfilePicturePath(`${authorPicture}.png`)}
           alt={`${authorName}'s profile`}
-        /> */}
+        />
+        {console.log(authorPicture)}
         <div>
           <h2 className="text-lg font-semibold">{authorName}</h2>
           {/* <p className="text-gray-500 text-sm">{date}</p> */}

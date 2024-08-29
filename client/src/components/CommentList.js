@@ -9,7 +9,7 @@ const CommentList = ({ comments }) => {
         <div className="my-2" key={index}>
           <Comment
             authorName={comment[0].name}
-            // authorPicture={comment.author_profile_photo}
+            authorPicture={comment[0].id}
             content={comment[1]}
             date={formatHumanReadableDate(comment.published_at)}
           />
