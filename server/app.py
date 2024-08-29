@@ -7,7 +7,7 @@ import os
 
 # File Imports
 from config import DATABASE
-from db_functions import initialize_users, initialize_posts, get_posts, get_single_post, get_comments, add_comment
+from db_functions import initialize_users, initialize_posts, get_posts, get_single_post, get_comments, add_comment, initialize_agents
 from agent_utils.generate_comments import generate_comments
 
 app = Flask(__name__)
@@ -88,4 +88,6 @@ if __name__ == '__main__':
         print('Initialized!')
     else:
         print('Database already exists. Skipping initialization.')
+    user_agents = initialize_agents()
+    print("Agents Initialized")
     app.run(port=9988, debug=False)

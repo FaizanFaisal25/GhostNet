@@ -6,20 +6,28 @@ from util import get_and_save_profile_picture
 from agent_utils.prompt_templates import system_prompt_template
 from agent_utils.SocialAgent import SocialAgent
 
-def initialize_agents(user_data):
+def initialize_agents(user_json='data/users.json'):
     agents = []
-    for user_details in user_data:
-        prompt = system_prompt_template(user_details)
-        agent = SocialAgent(prompt, user_details)
-        agents.append(agent)
+    try:
+        with open(user_json, 'r') as f:
+            user_data = json.load(f)
+
+        for user_details in user_data:
+            prompt = system_prompt_template(user_details)
+            agent = SocialAgent(prompt, user_details)
+            agents.append(agent)
+    except FileNotFoundError:
+        print(f"Error: The file {user_json} was not found.")
+    except json.JSONDecodeError:
+        print("Error: The file could not be decoded as JSON.")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
     return agents
 
 
 def initialize_users(db, user_json='data/users.json'):
     with open(user_json) as f:
         user_data = json.load(f)
-
-    user_agents = initialize_agents(user_data)
 
     cursor = db.cursor()
 
@@ -43,7 +51,6 @@ def initialize_users(db, user_json='data/users.json'):
     db.commit()
 
     print('Users Initialized!')
-    return user_agents
 
 
 def initialize_posts(db, post_json='data/api_data_partial.json'):
